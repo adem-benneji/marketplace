@@ -1,0 +1,23 @@
+server:
+  port: 5050
+
+spring:
+  application:
+    name: marketplace-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/marketplace
+    username: BenNeji
+    password: BenNeji
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+jwt:
+  secret: "replace-with-64+random-chars-for-HS256"
+  expiration: 3600000
