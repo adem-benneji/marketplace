@@ -20,4 +20,4 @@ spring:
 
 jwt:
   secret: "replace-with-64+random-chars-for-HS256"
-  expiration: 3600000
+  expiration: 36000000
