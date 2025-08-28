@@ -20,5 +20,5 @@ spring:
     show-sql: true
 
 jwt:
-  secret: "replace-with-64+random-chars-for-HS256"
+  secret: "7zEgEtFxDijz0p/JLFy+ZLupUDQ8ti4xNtVgX04VJqI="
   expiration: 36000000
